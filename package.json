@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@wdio/cli": "^8.27.2",
+    "@wdio/mocha-framework": "^8.27.2",
+    "expect-webdriverio": "^4.8.1",
+    "webdriverio": "^8.27.2"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node server.js",
+    "test": "mocha --timeout 10000"
+  }
+}
